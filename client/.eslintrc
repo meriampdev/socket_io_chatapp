@@ -1,0 +1,9 @@
+{
+  "extends": "react-app",
+  "globals": {
+    "FB": true
+  }
+  "rules": {
+    "no-undef": [2, {"ignoreBuiltinGlobals": ["FB"]}]
+  }
+}
